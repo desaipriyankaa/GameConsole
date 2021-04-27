@@ -4,9 +4,9 @@ using System.Text;
 
 namespace GameConsole
 {
-    public class IronBonesDefence : ISpecialDefence
+    public class IronBonesDefence : SpecialDefence
     {
-        public int calculateDemageReduction(int TotalDamage)
+        public override int calculateDemageReduction(int TotalDamage)
         {
             return 5;
         }

@@ -6,8 +6,8 @@ namespace GameConsole
 {
     class PlayerCharacter
     {
-        private readonly ISpecialDefence _specialDefence;
-        public PlayerCharacter(ISpecialDefence specialDefence)
+        private readonly SpecialDefence _specialDefence;
+        public PlayerCharacter(SpecialDefence specialDefence)
         {
             _specialDefence = specialDefence;
         }

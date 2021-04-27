@@ -11,12 +11,12 @@ namespace GameConsole
                 Name = "Priyanka"
             };
 
-            PlayerCharacter suraj = new PlayerCharacter(new IronBonesDefence())
+            PlayerCharacter suraj = new PlayerCharacter(SpecialDefence.Null)
             {
                 Name = "Suraj"
             };
 
-            PlayerCharacter vishu = new PlayerCharacter(new NullDefence())
+            PlayerCharacter vishu = new PlayerCharacter(SpecialDefence.Null)
             {
                 Name = "Vishu"
             };
